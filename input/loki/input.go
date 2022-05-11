@@ -5,8 +5,8 @@ import (
 	_log "log"
 	"time"
 
-	"github.com/factorysh/chevillette/log"
-	"github.com/factorysh/chevillette/memory"
+	"github.com/athoune/chevillette/log"
+	"github.com/athoune/chevillette/memory"
 )
 
 type LokiInput struct {

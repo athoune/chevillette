@@ -4,13 +4,13 @@ import (
 	"context"
 	"os"
 
-	"github.com/factorysh/chevillette/auth/authrequest"
-	"github.com/factorysh/chevillette/conf"
-	"github.com/factorysh/chevillette/input/fluentd"
-	"github.com/factorysh/chevillette/input/loki"
-	"github.com/factorysh/chevillette/input/lumber"
-	"github.com/factorysh/chevillette/log"
-	"github.com/factorysh/chevillette/memory"
+	"github.com/athoune/chevillette/auth/authrequest"
+	"github.com/athoune/chevillette/conf"
+	"github.com/athoune/chevillette/input/fluentd"
+	"github.com/athoune/chevillette/input/loki"
+	"github.com/athoune/chevillette/input/lumber"
+	"github.com/athoune/chevillette/log"
+	"github.com/athoune/chevillette/memory"
 	"gopkg.in/yaml.v3"
 )
 

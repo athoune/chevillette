@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/athoune/chevillette/input/loki"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/factorysh/chevillette/input/loki"
 )
 
 func main() {

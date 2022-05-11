@@ -3,7 +3,7 @@ package log
 import (
 	"fmt"
 
-	"github.com/factorysh/chevillette/pattern"
+	"github.com/athoune/chevillette/pattern"
 	iradix "github.com/hashicorp/go-immutable-radix"
 )
 

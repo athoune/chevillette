@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/factorysh/chevillette/input"
+	"github.com/athoune/chevillette/input"
 )
 
 func New(io.Reader) input.LineScanner {

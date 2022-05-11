@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/factorysh/chevillette/memory"
+	"github.com/athoune/chevillette/memory"
 )
 
 // See https://nginx.org/en/docs/http/ngx_http_auth_request_module.html

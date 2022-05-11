@@ -22,9 +22,9 @@ build-loki: bin
 
 test:
 	go test -cover \
-		github.com/factorysh/chevillette/log \
-		github.com/factorysh/chevillette/memory \
-		github.com/factorysh/chevillette/pattern
+		github.com/athoune/chevillette/log \
+		github.com/athoune/chevillette/memory \
+		github.com/athoune/chevillette/pattern
 
 bin:
 	mkdir -p bin

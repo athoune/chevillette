@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
+	"github.com/athoune/chevillette/conf"
+	"github.com/athoune/chevillette/log"
+	"github.com/athoune/chevillette/memory"
 	"github.com/elastic/go-lumber/server"
-	"github.com/factorysh/chevillette/conf"
-	"github.com/factorysh/chevillette/log"
-	"github.com/factorysh/chevillette/memory"
 )
 
 type LumberInput struct {

@@ -6,10 +6,10 @@ import (
 
 	_log "log"
 
-	"github.com/factorysh/chevillette/conf"
-	"github.com/factorysh/chevillette/log"
-	"github.com/factorysh/chevillette/memory"
-	"github.com/factorysh/fluent-server/server"
+	"github.com/athoune/chevillette/conf"
+	"github.com/athoune/chevillette/log"
+	"github.com/athoune/chevillette/memory"
+	"github.com/athoune/fluent-server/server"
 )
 
 type FluentdInput struct {
