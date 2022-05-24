@@ -1,5 +1,5 @@
-github.com/athoune/fluent-server v0.4.2 h1:5HYuYH7AbiHH5RvvodOQY2pjlR+RMNUvlhX0thzjfpw=
-github.com/athoune/fluent-server v0.4.2/go.mod h1:N4OEkpypmGg5XoF9fD3VBlfCLvbPWkbWinnARTBHoDM=
+github.com/athoune/fluent-server v0.5.0 h1:QPS1H0MlK5gFnRGXch+SvApNb+VIM+6hqlPvFoQ2So8=
+github.com/athoune/fluent-server v0.5.0/go.mod h1:N4OEkpypmGg5XoF9fD3VBlfCLvbPWkbWinnARTBHoDM=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -73,3 +73,5 @@ gopkg.in/errgo.v2 v2.1.0/go.mod h1:hNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
+gopkg.in/yaml.v3 v3.0.0 h1:hjy8E9ON/egN1tAYqKb61G10WtihqetD4sz2H+8nIeA=
+gopkg.in/yaml.v3 v3.0.0/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

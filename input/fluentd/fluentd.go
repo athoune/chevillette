@@ -9,6 +9,8 @@ import (
 	"github.com/athoune/chevillette/conf"
 	"github.com/athoune/chevillette/log"
 	"github.com/athoune/chevillette/memory"
+	"github.com/athoune/fluent-server/defaultreader"
+	"github.com/athoune/fluent-server/options"
 	"github.com/athoune/fluent-server/server"
 )
 
@@ -27,7 +29,7 @@ func New(tag string, line log.LineReader, memory *memory.Memory, conf *conf.Flue
 		logKey: "log",
 		memory: *memory,
 	}
-	s, err := server.New(func(tag string, ts *time.Time, record map[string]interface{}) error {
+	handler := func(tag string, ts *time.Time, record map[string]interface{}) error {
 		_log.Println(" log", tag, ts, record)
 		if tag == f.tag {
 			keys, err := f.line([]byte(record[f.logKey].(string)))
@@ -39,12 +41,16 @@ func New(tag string, line log.LineReader, memory *memory.Memory, conf *conf.Flue
 			_log.Println("keys", keys)
 		}
 		return nil
-	})
+	}
+	cfg := &options.FluentOptions{
+		SharedKey:             conf.SharedKey,
+		Debug:                 true,
+		MessagesReaderFactory: defaultreader.DefaultMessagesReaderFactory(handler),
+	}
+	s, err := server.New(cfg)
 	if err != nil {
 		return nil, err
 	}
-	s.Debug = true
-	s.SharedKey = conf.SharedKey
 	f.server = s
 	return f, nil
 }

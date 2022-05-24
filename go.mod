@@ -3,14 +3,14 @@ module github.com/athoune/chevillette
 go 1.17
 
 require (
-	github.com/athoune/fluent-server v0.4.2
+	github.com/athoune/fluent-server v0.5.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/elastic/go-lumber v0.1.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/hashicorp/go-immutable-radix v1.3.1
 	github.com/stretchr/testify v1.7.1
 	go.uber.org/goleak v1.1.12
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.0
 )
 
 require (
